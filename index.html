@@ -1,63 +1,30 @@
-<!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Gustavo Ribeiro</title>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-><style>
-    
-    .perfil{
-    display:flex;
-    justify-content: center;
-}
-    body{
-    background-color: #E0F0F5;
-}
-.inf{
-    background-color:#829CBC;
-} 
-
-h1{
-    font-family: helvetica;
-}
-
-
-#descricao{
-    font-family:Arial,sans-serif;
-    font-size: medium;
-    text-align: center;
-}]
-
-.hab{
-    display: flex;
-    font-family:Arial,sans-serif;
-    font-size: medium;
-    text-align: center;
-}
-</style>
-
-
-<body>
-    <h1>Gustavo Ribeiro</h1>
-    <b class="perfil" >
-    <img src="gustavoribeiro.jpg"  alt="gustavo-ribeiro"  title="Foto de Perfil Gustavo Ribeiro" width="50%" height="50%" ></b> 
-    <p id="descricao"> <b>Olá ,me chamo Gustavo da Silva Ribeiro !</b><br> <em>
-        Mas pode me chamo de Gustavo ,Gusta ,GuH ou FoX para os gamers.<br>
-        Nasci em <b class="inf">  Ituvera/SP</b> descendentes de mineiros<br> mas criado em <b class="inf">Ribeirão Preto/SP</b> desde meus 6 anos de idade . </em>
-    </p>
-    
-    <p class="hab" >
-    <ul > Minhas Habilidades </ul>
-    <li> Tecnico de Informatica </li>
-    <li> <a href="https://www.behance.net/gustavomegusta"> Fotografo - Amador </a>  </ul>  
-    <li> Musico - Amador </li>
-    <li> <b>Motoboy/Delivery - Excelente </b></li> </p>
-
-    <p> Link para minha foto de perfil <a href="gustavoribeiro.jpg"> Foto de Perfil</a></p>
-    <p>Link para a pagina secundaria
-         <a href="page02.html" rel="next"> Pagina Secundaria</a>
-</body>
+  <body>
+    <header>
+      <nav>
+        <a class="logo" href="/">Gustavo Ribeiro</a>
+        <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ul class="nav-list">
+          <li><a href="#">Início</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Projetos</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main></main>
+    <script src="mobile-navbar.js"></script>
+  </body>
 </html>
