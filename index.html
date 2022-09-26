@@ -1,30 +1,94 @@
+<!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio Gustavo Ribeiro</title>
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
 
-  <body>
-    <header>
-      <nav>
-        <a class="logo" href="/">Gustavo Ribeiro</a>
-        <div class="mobile-menu">
-          <div class="line1"></div>
-          <div class="line2"></div>
-          <div class="line3"></div>
-        </div>
-        <ul class="nav-list">
-          <li><a href="#">Home/a></li>
-          <li><a href="#">Sobre</a></li>
-          <li><a href="#">Projetos</a></li>
-          <li><a href="#">Contato</a></li>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio - Gustavo Ribeiro</title>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <header id="portfolio_web">
+    <h1>Portfólio - Web</h1>
+    <p>Este portfólio será desenvolvido ao longo do curso na Trybe, com exceção da configuração da fonte,
+      inicialmente usarei somente HTML.</p>
+  </header>
+
+  <div class="container">
+    <section id="nome_e_foto">
+      <!-- Uma foto atual sua, acompanhada de um texto alternativo, que deve ser a descrição da foto que você está usando; -->
+      <a href="./img/gustavoribeiro.jpg"><img src="./img/gustavoribeiro.jpg" alt="Foto de Gustavo Ribeiro"
+          width="550px"></a>
+      <!-- Seu nome completo; -->
+      <h2>Gustavo da Silva Ribeiro</h2>
+    </section>
+
+    <!-- Um índice com links internos para as diferentes seções do seu portfólio. -->
+    <section id="indice">
+      <h2>Índice</h2>
+      <ul>
+        <li><a href="#descricao">Descrição</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#links">Links</a></li>
+      </ul>
+    </section>
+
+    <section id="descricao">
+      <!-- Uma breve descrição sobre você, destacando algumas informações como nacionalidade e a cidade/estado onde mora; -->
+      <!-- Partes do seu portfólio destacadas com negrito e/ou itálico; -->
+      <h2>Descrição</h2>
+      <p>Tenho <strong>31 anos</strong>, moro em <strong>Ribeirão Preto/SP</strong>. Sou apaixonado por música e tecnologia.
+        Trabalhei a maior parte do tempo como montador de portas para moveis planejados, porém, sempre estudei tudo sobre informatica e programação por conta
+        própria, através de: livros, artigos e vídeos. Este ano decidi mudar de vez de setor e estou focado em aprender
+        as tecnologias mais utilizadas no mercado de desenvolvimento web e em desenvolver minhas <em>softskills</em>.
+      </p>
+    </section>
+
+    <section id="habilidades">
+      <!-- Uma lista de habilidades que você possui, com destaque para aquela de que você mais se orgulha; -->
+      <h2>Habilidades</h2>
+      <div class="wrapper">
+        <div class="habilidade">HTML</div>
+        <div class="habilidade">CSS</div>
+        <div class="habilidade">JavaScript</div>
+        <div class="habilidade">Manutenção de computadores</div>
+        <div class="habilidade">Montagem de Redes de Computadores</div>
+        <div class="habilidade">Foco</div>
+        <div class="habilidade">Disciplina</div>
+        <div class="habilidade">Persistência</div>
+      </div>
+    </section>
+
+    <section id="links">
+      <h2>Links</h2>
+
+      <div class="container">
+
+        <h3>Redes sociais</h3>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/gustavodasilvaribeiro/" target="_blank">LinkedIn</a></li>
+          <li><a href="https://www.instagram.com/srgustavorib/" target="_blank">Instagram</a></li>
         </ul>
-      </nav>
-    </header>
-    <main></main>
-    <script src="mobile-navbar.js"></script>
-  </body>
+
+        <!-- Um link externo para algum blog de que você goste, que abra em uma nova aba; -->
+        <h3>Indicações de conteúdo</h3>
+        <ul>
+          <li><a href="https://shiffman.net/" target="_blank">Daniel Shiffman</a></li>
+          <li><a href="https://www.youtube.com/channel/UCTBGXCJHORQjivtgtMsmkAQ" target="_blank">Steve Griffith</a></li>
+          <li><a href="https://www.youtube.com/user/irideabanana" target="_blank">uidotdev</a></li>
+        </ul>
+
+      </div>
+    </section>
+
+  </div>
+
+  <footer>
+    <a href="#portfolio_web">Voltar para o topo</a>
+  </footer>
+
+</body>
+
 </html>
