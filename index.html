@@ -1,94 +1,145 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio - Gustavo Ribeiro</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfólio - Gustavo Ribeiro</title>
-  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./css/style.css">
-</head>
-
-<body>
-  <header id="portfolio_web">
-    <h1>Portfólio - Web</h1>
-    <p>Este portfólio será desenvolvido ao longo do curso na Trybe, com exceção da configuração da fonte,
-      inicialmente usarei somente HTML.</p>
-  </header>
-
-  <div class="container">
-    <section id="nome_e_foto">
-      <!-- Uma foto atual sua, acompanhada de um texto alternativo, que deve ser a descrição da foto que você está usando; -->
-      <a href="./img/gustavoribeiro.jpg"><img src="./img/gustavoribeiro.jpg" alt="Foto de Gustavo Ribeiro"
-          width="550px"></a>
-      <!-- Seu nome completo; -->
-      <h2>Gustavo da Silva Ribeiro</h2>
-    </section>
-
-    <!-- Um índice com links internos para as diferentes seções do seu portfólio. -->
-    <section id="indice">
-      <h2>Índice</h2>
-      <ul>
-        <li><a href="#descricao">Descrição</a></li>
-        <li><a href="#habilidades">Habilidades</a></li>
-        <li><a href="#links">Links</a></li>
-      </ul>
-    </section>
-
-    <section id="descricao">
-      <!-- Uma breve descrição sobre você, destacando algumas informações como nacionalidade e a cidade/estado onde mora; -->
-      <!-- Partes do seu portfólio destacadas com negrito e/ou itálico; -->
-      <h2>Descrição</h2>
-      <p>Tenho <strong>31 anos</strong>, moro em <strong>Ribeirão Preto/SP</strong>. Sou apaixonado por música e tecnologia.
-        Trabalhei a maior parte do tempo como montador de portas para moveis planejados, porém, sempre estudei tudo sobre informatica e programação por conta
-        própria, através de: livros, artigos e vídeos. Este ano decidi mudar de vez de setor e estou focado em aprender
-        as tecnologias mais utilizadas no mercado de desenvolvimento web e em desenvolver minhas <em>softskills</em>.
+  <body>
+    <header id="portfolio_web">
+      <h1>Portfólio - Web</h1>
+      <p>
+        Este portfólio será desenvolvido ao longo do curso na Trybe, com exceção
+        da configuração da fonte, inicialmente usarei somente HTML E CSS .
       </p>
-    </section>
+    </header>
 
-    <section id="habilidades">
-      <!-- Uma lista de habilidades que você possui, com destaque para aquela de que você mais se orgulha; -->
-      <h2>Habilidades</h2>
-      <div class="wrapper">
-        <div class="habilidade" ><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">HTML</a></div>
-        <div class="habilidade"><a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank" >CSS</a></div>
-        <div class="habilidade"><a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank">JavaScript</a></div>
-        <div class="habilidade">Manutenção de computadores</div>
-        <div class="habilidade">Montagem de Redes de Computadores</div>
-        <div class="habilidade">Foco</div>
-        <div class="habilidade">Disciplina</div>
-        <div class="habilidade">Persistência</div>
-      </div>
-    </section>
+    <div class="container">
+      <section id="nome_e_foto">
+        <!-- Uma foto atual sua, acompanhada de um texto alternativo, que deve ser a descrição da foto que você está usando; -->
+        <a href="./img/gustavoribeiro.jpg"
+          ><img
+            src="./img/gustavoribeiro.jpg"
+            alt="Foto de Gustavo Ribeiro"
+            width="550px"
+        /></a>
+        <!-- Seu nome completo; -->
+        <h2 id="background_nome">Gustavo da Silva Ribeiro</h2>
+      </section>
 
-    <section id="links">
-      <h2>Links</h2>
-
-      <div class="container">
-
-        <h3>Redes sociais</h3>
+      <!-- Um índice com links internos para as diferentes seções do seu portfólio. -->
+      <section id="indice">
+        <h2>Índice</h2>
         <ul>
-          <li><a href="https://www.linkedin.com/in/gustavodasilvaribeiro/" target="_blank">LinkedIn</a></li>
-          <li><a href="https://www.instagram.com/srgustavorib/" target="_blank">Instagram</a></li>
+          <li><a href="#descricao">Descrição</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#links">Links</a></li>
         </ul>
+      </section>
 
-        <!-- Um link externo para algum blog de que você goste, que abra em uma nova aba; -->
-        <h3>Indicações de conteúdo</h3>
-        <ul>
-          <li><a href="https://shiffman.net/" target="_blank">Daniel Shiffman</a></li>
-          <li><a href="https://www.youtube.com/channel/UCTBGXCJHORQjivtgtMsmkAQ" target="_blank">Steve Griffith</a></li>
-          <li><a href="https://www.youtube.com/user/irideabanana" target="_blank">uidotdev</a></li>
-        </ul>
+      <section id="descricao">
+        <!-- Uma breve descrição sobre você, destacando algumas informações como nacionalidade e a cidade/estado onde mora; -->
+        <!-- Partes do seu portfólio destacadas com negrito e/ou itálico; -->
+        <h2>Descrição</h2>
+        <p>
+          Tenho <strong>31 anos</strong>, moro em
+          <strong>Ribeirão Preto/SP</strong>. Sou apaixonado por música e
+          tecnologia. Trabalhei a maior parte do tempo como montador de portas
+          para moveis planejados, porém, sempre estudei tudo sobre informatica e
+          programação por conta própria, através de: livros, artigos e vídeos.
+          Este ano decidi mudar de vez de setor e estou focado em aprender as
+          tecnologias mais utilizadas no mercado de desenvolvimento web e em
+          desenvolver minhas <em>softskills</em>.
+        </p>
+      </section>
 
-      </div>
-    </section>
+      <section id="habilidades">
+        <!-- Uma lista de habilidades que você possui, com destaque para aquela de que você mais se orgulha; -->
+        <h2>Habilidades</h2>
+        <div class="wrapper">
+          <div class="habilidade">
+            <a
+              href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"
+              target="_blank"
+              >HTML</a
+            >
+          </div>
+          <div class="habilidade">
+            <a
+              href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"
+              target="_blank"
+              >CSS</a
+            >
+          </div>
+          <div class="habilidade">
+            <a
+              href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"
+              target="_blank"
+              >JavaScript</a>
+          </div>
+          <div class="habilidade"><a href"https://www.officetotal.com.br/blog/manutencao-de-computadores/" target="_blank">Manutenção de computadores</a></div>
+          <div class="habilidade">Montagem de Redes de Computadores</div>
+          <div class="habilidade">Foco</div>
+          <div class="habilidade">Disciplina</div>
+          <div class="habilidade"><a href="https://www.otempo.com.br/opiniao/vida-saudavel/ser-persistente-1.2150469"   target="_blank">Persistência</a></div>
+        </div>
+      </section>
 
-  </div>
+      <section id="links">
+        <h2>Links</h2>
 
-  <footer>
-    <a href="#portfolio_web">Voltar para o topo</a>
-  </footer>
+        <div class="container">
+          <h3>Redes sociais</h3>
+          <ul>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/gustavodasilvaribeiro/"
+                target="_blank"
+                >LinkedIn</a
+              >
+            </li>
+            <li>
+              <a href="https://www.instagram.com/srgustavorib/" target="_blank"
+                >Instagram</a
+              >
+            </li>
+          </ul>
 
-</body>
+          <!-- Um link externo para algum blog de que você goste, que abra em uma nova aba; -->
+          <h3>Indicações de conteúdo</h3>
+          <ul>
+            <li>
+              <a href="https://shiffman.net/" target="_blank"
+                >Daniel Shiffman</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.youtube.com/channel/UCTBGXCJHORQjivtgtMsmkAQ"
+                target="_blank"
+                >Steve Griffith</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.youtube.com/user/irideabanana"
+                target="_blank"
+                >uidotdev</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
 
+    <footer>
+      <a href="#portfolio_web">Voltar para o topo</a>
+    </footer>
+  </body>
 </html>
